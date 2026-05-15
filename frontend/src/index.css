@@ -1,0 +1,415 @@
+.publishing-navbar {
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.publishing-navbar .brand-name {
+  font-size: 1.65rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #f8fafc;
+}
+
+.publishing-navbar .brand-entity {
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  color: #94a3b8;
+}
+
+/* Mobile improvements */
+@media (max-width: 991px) {
+  .publishing-navbar .navbar-nav {
+    padding: 15px 0;
+  }
+}
+/* Footer.css */
+
+.publishing-footer {
+  background-color: #1a1a1a;
+}
+
+.footer-link {
+  color: #d1d5db !important;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #facc15 !important;     
+}
+
+.publishing-footer h5 {
+  color: #facc15;
+  font-size: 1.1rem;
+}
+/* ====================== HomeSections.css - Vasudheva Publishing ====================== */
+
+/* Common */
+.section-heading {
+  font-size: 2.8rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #1e2937;
+  margin-bottom: 1.5rem;
+}
+
+/* ====================== HERO SECTION - UPDATED ====================== */
+
+.hero-section {
+  position: relative;
+  /* min-height: 85vh; */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  color: white;
+  /* overflow: hidden; */
+}
+
+.hero-bg-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #312e81 100%);
+  z-index: 1;
+}
+
+/* .hero-bg-image {
+  position: absolute;
+  inset: 0;
+  background-image: url('/images/publishing-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+  opacity: 0.6;
+} */
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.65);
+  z-index: 3;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 4;
+  padding: 0 20px;
+}
+
+.hero-text {
+  padding-right: 30px;
+}
+
+/* Right Side Image */
+.hero-image-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-right-image {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* Typography */
+.hero-small-label {
+  font-size: 1.1rem;
+  letter-spacing: 4px;
+  color: #94a3b8;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.hero-heading {
+  font-size: 3.4rem;
+  line-height: 1.15;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.hero-subheadline {
+  font-size: 1.25rem;
+  line-height: 1.65;
+  color: #e2e8f0;
+  margin-bottom: 2.5rem;
+}
+
+
+
+/* ====================== MOBILE RESPONSIVENESS ====================== */
+
+@media (max-width: 991px) {
+  .hero-section {
+    min-height: 80vh;
+  }
+  
+  .hero-heading {
+    font-size: 2.4rem !important;
+  }
+  
+  .hero-subheadline {
+    font-size: 1.1rem !important;
+    line-height: 1.6;
+  }
+  
+  .hero-small-label {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-heading {
+    font-size: 2.1rem !important;
+  }
+  
+  .hero-subheadline {
+    font-size: 1.05rem !important;
+  }
+  
+  .hero-text {
+    padding-right: 0;
+    text-align: center;
+  }
+  
+  .hero-ctas {
+    justify-content: center;
+  }
+}
+
+/* common card */
+/* Card Common Style */
+ .identity-card {
+  
+   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); 
+   border-radius: 12px; overflow: hidden;
+   } 
+   .identity-card:hover {
+     transform: translateY(-15px) scale(1.03);
+      box-shadow: 0 25px 35px -10px rgba(0, 0, 0, 0.25) !important;
+     } 
+.card-icon { 
+  width: 70px;
+   height: 70px; 
+   object-fit: contain;
+    margin-bottom: 1.5rem; 
+  }
+
+/* About Page Styling */
+
+.about-hero {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.about-section {
+  margin-bottom: 30px;
+}
+
+.about-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.about-text {
+  color: #4b5563;
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+.about-card {
+  background: #c9f5d4;
+  border-radius: 12px;
+  padding: 20px;
+  /* height: 100%; */
+  transition: all 0.25s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.about-list li {
+  margin-bottom: 10px;
+  line-height: 1.7;
+  color: #374151;
+}
+
+.about-principle {
+  background: #ecedc1;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.about-principle:hover {
+  background: #d9e2a0;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* ===== Manuscript Page ===== */
+
+.manuscript-hero {
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 30px;
+}
+
+/* Section spacing */
+.manuscript-section {
+  margin-bottom: 50px;
+}
+
+/* Section headings */
+.manuscript-section h4,
+.manuscript-section h5 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* Text */
+.manuscript-text {
+  color: #4b5563;
+  line-height: 1.8;
+}
+
+/* Lists */
+.manuscript-list {
+  padding-left: 18px;
+}
+
+.manuscript-list li {
+  margin-bottom: 8px;
+  color: #374151;
+}
+
+/* Form */
+.manuscript-form {
+  background: #eff5d4;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+/* Inputs */
+.manuscript-form .form-control {
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 0.95rem;
+}
+
+.manuscript-form textarea {
+  resize: none;
+}
+
+/* Upload labels */
+.manuscript-form label {
+  font-size: 0.9rem;
+  color: #374151;
+  margin-bottom: 6px;
+}
+
+/* Declaration */
+.manuscript-declaration {
+  background: #eff5d4;;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+/* Submit button */
+.manuscript-submit {
+  border-radius: 30px;
+  padding: 10px 28px;
+}
+
+/* After submission box */
+.manuscript-after {
+  background: #ebebc5;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* ===== Responsive ===== */
+
+/* Tablet */
+@media (max-width: 992px) {
+  .manuscript-form {
+    padding: 20px;
+  }
+
+  .manuscript-section {
+    margin-bottom: 40px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .manuscript-hero h1 {
+    font-size: 1.6rem;
+  }
+
+  .manuscript-hero p {
+    font-size: 0.95rem;
+  }
+
+  .manuscript-form {
+    padding: 15px;
+  }
+
+  .manuscript-submit {
+    width: 100%;
+  }
+}
+
+        .animate-fade-in {
+          animation: fadeIn 1s ease forwards;
+        }
+        .animate-fade-in-delay-1 { animation-delay: 0.3s; }
+        .animate-fade-in-delay-2 { animation-delay: 0.6s; }
+        .animate-fade-in-delay-3 { animation-delay: 0.9s; }
+
+        @keyframes fadeIn {
+          from { opacity: 0; transform: translateY(30px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+
+        .hover-scale {
+          transition: all 0.3s ease;
+        }
+        .hover-scale:hover {
+          transform: scale(1.05);
+        }
+
+        .hover-lift {
+          transition: all 0.4s ease;
+        }
+        .hover-lift:hover {
+          transform: translateY(-12px);
+          box-shadow: 0 20px 40px rgba(0,0,0,0.1) !important;
+        }
+
+        .hero-bg-overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(135deg, rgba(108, 99, 255, 0.08), rgba(255, 87, 151, 0.05));
+          z-index: 1;
+        }
+
+        .transition-all {
+          transition: all 0.4s ease;
+        }
+      .hover-scale {
+  transition: all 0.3s ease;
+}
+
