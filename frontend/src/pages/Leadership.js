@@ -5,11 +5,10 @@ import {
   Col,
   Card,
   Button,
-  Image,
+  
 } from "react-bootstrap";
 
-// IMPORT IMAGE HERE
-import founderImage from "../assets/images/shashank_photo.jpeg";
+
 
 const leadershipAreas = [
   {
@@ -198,16 +197,16 @@ export default function LeadershipPage() {
       </section>
 
       {/* FOUNDER SECTION */}
-      <section className="py-5">
+      {/* <section className="py-5">
         <Container>
           <h2 className="fw-bold mb-5">Founder and Chief Architect</h2>
 
           <Row className="align-items-center">
-            {/* IMAGE COLUMN */}
+            
             <Col lg={4}>
               <div className="text-center">
 
-                {/* IMAGE ADDED HERE */}
+                
                 <Image
                   src={founderImage}
                   alt="Shashank Singh"
@@ -223,10 +222,10 @@ export default function LeadershipPage() {
                 />
 
               </div>
-            </Col>
+            </Col> */}
 
-            {/* CONTENT COLUMN */}
-            <Col lg={8} className="mt-4 mt-lg-0">
+           
+            {/* <Col lg={8} className="mt-4 mt-lg-0">
               <h3 className="fw-bold">Shashank Singh</h3>
 
               <h5 className="text-muted">
@@ -258,7 +257,7 @@ export default function LeadershipPage() {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
 
       {/* LEADERSHIP AREAS */}
       <section className="py-5 bg-light">
